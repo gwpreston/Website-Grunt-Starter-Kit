@@ -1,0 +1,23 @@
+{
+  "name": "Website-Grunt-Starter-Kit",
+  "version": "0.0.1",
+  "description": "A PHP website development tool.",
+  "author": "Gareth Preston",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-fontoptim": "^0.1.1",
+    "grunt-newer": "^1.2.0",
+    "grunt-sass": "^1.2.1",
+    "grunt-spritesmith": "^6.3.1",
+    "grunt-svg2png": "^0.2.7",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}

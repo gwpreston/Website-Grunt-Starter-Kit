@@ -1,0 +1,27 @@
+{
+  "name": "Website-Grunt-Starter-Kit",
+  "description": "A PHP website development tool.",
+  "main": "",
+  "authors": [
+    "Gareth Preston"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "jquery_lazyload": "jquery.lazyload#^1.9.7",
+    "backbone-amd": "^1.1.0",
+    "underscore-amd": "^1.5.2",
+    "normalize-css": "^4.2.0",
+    "respond": "^1.4.2",
+    "html5shiv": "^3.7.3",
+    "requirejs": "requirejs-bower#^2.2.0"
+  }
+}
