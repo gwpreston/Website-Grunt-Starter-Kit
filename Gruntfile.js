@@ -126,7 +126,7 @@ module.exports = function (grunt) {
 		sass: {
 			release : {
           options: {
-              style: 'compressed',
+              outputStyle: 'compressed',
               sourcemap : 'none'
           },
           files: [{
@@ -139,7 +139,7 @@ module.exports = function (grunt) {
       },
 			build : {
           options: {
-              style: 'expanded'
+              outputStyle: 'expanded'
           },
           files: [{
               expand: true,
