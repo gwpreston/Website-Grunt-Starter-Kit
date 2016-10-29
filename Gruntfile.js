@@ -252,6 +252,4 @@ module.exports = function (grunt) {
 	grunt.registerTask('default', [ 'develop' ]);
 	grunt.registerTask('develop', [ 'build', 'connect', 'watch' ]);
 
-	//grunt.registerTask('test', [ 'copy:bower' ]);
-
 };
