@@ -1,0 +1,13 @@
+
+/* http://tutorials.jenkov.com/responsive-mobile-friendly-web-design/responsive-images.html */
+
+img.ResponsiveImg-fill {
+    width: 100%;
+    height: auto;
+}
+
+img.ResponsiveImg-shrink {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
