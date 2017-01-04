@@ -1,0 +1,9 @@
+
+$default-border-radius: 5px !default;
+
+@mixin border-radius($radius: $default-border-radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

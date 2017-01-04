@@ -1,15 +1,11 @@
 @import 'reset';
 @import 'variables';
+@import 'mixin/core';
 
 .deferred {
   visibility: hidden;
 }
 
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+.box {
+    @include border-radius(10px);
 }
-
-.box { @include border-radius(10px); }

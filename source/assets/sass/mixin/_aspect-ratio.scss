@@ -1,0 +1,31 @@
+
+/*
+Link: https://css-tricks.com/snippets/sass/maintain-aspect-ratio-mixin/
+http://www.w3schools.com/howto/howto_css_aspect_ratio.asp
+http://www.goldenapplewebdesign.com/responsive-aspect-ratios-with-pure-css/
+http://stackoverflow.com/questions/12121090/responsively-change-div-size-keeping-aspect-ratio
+http://stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css
+https://www.google.co.uk/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=css+4+by+3+image+ratio
+
+.sixteen-nine {
+  @include aspect-ratio(16, 9);
+}
+*/
+@aspect-ratio($width, $height) {
+    position: relative;
+
+    &:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: ($height / $width) * 100%;
+    }
+
+    > .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
